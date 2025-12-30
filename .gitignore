@@ -26,6 +26,7 @@ dist-ssr
 
 # Build output
 dist_electron
+dist-electron
 dist_renderer
 release
 
@@ -56,3 +57,9 @@ pnpm-lock.yaml
 # IDE and tools
 .trae/
 .claude/
+
+# Images (except screenshot)
+*.png
+!screenshot.png
+*.jpg
+*.jpeg
